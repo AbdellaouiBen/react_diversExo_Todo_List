@@ -1,0 +1,72 @@
+.gdDivExo4 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around; }
+  .gdDivExo4 .grandCarre {
+    background-color: blue;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .gdDivExo4 .grandCarre .petitCarre {
+      background-color: red;
+      width: 50px;
+      height: 50px; }
+
+.exo4DivBtn {
+  display: flex;
+  justify-content: center; }
+  .exo4DivBtn .exo4DivBtn2 {
+    display: flex;
+    flex-direction: column; }
+    .exo4DivBtn .exo4DivBtn2 .btn {
+      margin-top: 10px;
+      width: 150px; }
+
+.imgExo5 img {
+  width: 20%; }
+
+.divBtnExo5 {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center; }
+  .divBtnExo5 button {
+    margin: 5px; }
+
+.calculatrice {
+  width: 200px;
+  background-color: black; }
+  .calculatrice .repNv2 {
+    height: 20px;
+    float: right;
+    color: white; }
+  .calculatrice .operateur {
+    color: white;
+    background-color: blue; }
+  .calculatrice .btnClear {
+    color: white;
+    background-color: red; }
+  .calculatrice .btnEgal {
+    color: white;
+    background-color: green; }
+
+.divCalcul {
+  padding: 0 10px;
+  justify-content: space-between; }
+  .divCalcul button {
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 10px; }
+
+.checked {
+  background-color: green;
+  color: white; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
